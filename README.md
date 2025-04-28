@@ -10,4 +10,9 @@ Linked netlify and Github repo
 
 Opened VSCode and cloned locally
 
->Git commi -m
+>Git commit -m 'first post' 
+
+
+created styles.css
+
+>Git commit -m 'add auto css' 
