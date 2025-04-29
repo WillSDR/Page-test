@@ -52,3 +52,25 @@ ul, ol {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+/* Section styles */
+.section-light {
+    background-color: #fda5a5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.section-dark {
+    background-color: #8cf8f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.section-accent {
+    background-color: #99c4f3;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
