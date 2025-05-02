@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>William Briand Photography</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>William Briand</h1>
+        <p>Photographe</p>
     </header>
+
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
     <main>
         <section class="section-light">
@@ -30,21 +32,21 @@
         </section>
 
         <section class="section-dark">
-            <h2>About Me</h2>
+            <h2>À propos</h2>
             <p>Hello! I'm William, a passionate photographer capturing moments one frame at a time. I specialize in landscapes, portraits, and event photography.</p>
         </section>
 
         <section class="section-accent">
             <h2>Contact</h2>
             <form>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br><br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
 
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
 
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5"></textarea>
 
                 <button type="submit">Send</button>
             </form>
@@ -57,7 +59,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 William Briand Photography</p>
+        <p>&copy; 2025 William Briand. Tous droits réservés.</p>
     </footer>
 </body>
 </html>

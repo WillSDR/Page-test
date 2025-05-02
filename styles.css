@@ -1,5 +1,8 @@
 /* Base styles for a simple static page */
 
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 /* Reset some default browser styles */
 body, h1, h2, h3, p, ul, ol, li, a {
     margin: 0;
@@ -9,7 +12,7 @@ body, h1, h2, h3, p, ul, ol, li, a {
 
 /* General body styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #e0e0e0;
@@ -62,4 +65,110 @@ ul, ol {
     border-radius: 12px;
     box-shadow: inset 4px 4px 8px #bebebe,
                 inset -4px -4px 8px #ffffff;
+}
+
+/* Header and navigation styles */
+header {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+nav a {
+    margin: 0 0.5rem;
+}
+
+/* Updated section styles */
+.section-light,
+.section-dark,
+.section-accent {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-light h2,
+.section-dark h2,
+.section-accent h2 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.section-dark p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+/* Gallery image styles */
+.gallery {
+    display: inline-flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.gallery img {
+    border-radius: 8px;
+}
+
+/* Contact form styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Aside and footer styles */
+aside {
+    text-align: center;
+    font-weight: 300;
+}
+
+aside h2 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.9rem;
 }
