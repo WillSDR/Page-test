@@ -46,7 +46,7 @@ This project was created to test and deploy a static page using Netlify and GitH
 
 ## Deployed Page
 
-You can view the deployed page here: [https://your-netlify-site.netlify.app](https://your-netlify-site.netlify.app)
+You can view the deployed page here: [williambriand.netlify.app](https://your-netlify-site.netlify.app)
 
 ## Possible Next Steps
 
