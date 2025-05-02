@@ -12,7 +12,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #58b5a7;
+    background-color: #e0e0e0;
     padding: 20px;
 }
 
@@ -47,30 +47,19 @@ ul, ol {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    background: #fff;
+    background: #e0e0e0;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    box-shadow: 8px 8px 16px #bebebe,
+                -8px -8px 16px #ffffff;
 }
 
 /* Section styles */
-.section-light {
-    background-color: #fda5a5;
+.section-light, .section-dark, .section-accent {
+    background: #e0e0e0;
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 6px;
-}
-
-.section-dark {
-    background-color: #8cf8f2;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 6px;
-}
-
-.section-accent {
-    background-color: #99c4f3;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 6px;
+    border-radius: 12px;
+    box-shadow: inset 4px 4px 8px #bebebe,
+                inset -4px -4px 8px #ffffff;
 }
